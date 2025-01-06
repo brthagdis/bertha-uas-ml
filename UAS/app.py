@@ -5,7 +5,7 @@ import pickle
 import matplotlib.pyplot as plt
 
 # Load models
-fish_model_svm = pickle.load(open('Supervised/SVM/SVM_fish.pkl', 'rb'))
+fish_model_svm = pickle.load(open('UAS/Supervised/SVM/SVM_fish.pkl', 'rb'))
 fruit_model_svm = pickle.load(open('Supervised/SVM/SVM_fruit.pkl', 'rb'))
 pumpkin_model_svm = pickle.load(open('Supervised/SVM/SVM_pumpkin.pkl', 'rb'))
 fish_model_pcp = pickle.load(open('Supervised/Perceptron/PCP_fish.pkl', 'rb'))
